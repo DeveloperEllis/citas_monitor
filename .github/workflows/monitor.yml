@@ -11,6 +11,9 @@ jobs:
     permissions:
       contents: write         # Necesario para hacer git push del state.txt
 
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
       - name: Checkout repositorio
         uses: actions/checkout@v4
