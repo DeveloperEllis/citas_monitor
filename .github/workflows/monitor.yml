@@ -27,7 +27,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Instalar Chromium para Playwright
-        run: playwright install chromium && playwright install-deps chromium
+        run: playwright install --with-deps chromium
 
       - name: Ejecutar monitor
         run: python monitor.py
