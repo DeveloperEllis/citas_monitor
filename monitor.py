@@ -16,8 +16,8 @@ TARGET_URL = os.environ.get(
     "TARGET_URL",
     "https://www.citaconsular.es/es/hosteds/widgetdefault/22091b5b8d43b89fb226cabb272a844f9/#services",
 )
-TELEGRAM_TOKEN = os.environ["8735978634:AAGySL_PXefOAokRI6-egAd2-lBlYiyCL20"]
-TELEGRAM_CHAT_ID = os.environ["8614326857"]
+TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
+TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 STATE_FILE = "state.txt"
 
 CLOSED_KEYWORDS = [
